@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "node": "^18.20.7",
+    "sequelize": "^6.37.5"
+  },
+  "name": "todo_list",
+  "version": "1.0.0",
+  "description": "todo list backend",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "bammoh",
+  "license": "ISC"
+}
